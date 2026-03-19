@@ -20,6 +20,7 @@ Objective	Predict whether a person has heart disease
 | Data Source    | UCI Heart Disease Dataset (Kaggle)          |
 | Language       | Python                                     |
 | Objective      | Predict whether a person has heart disease  |
+
 🚀 Project Workflow
 1. Data Collection
 
@@ -85,13 +86,13 @@ Objective	Predict whether a person has heart disease
 
 This project helped improve my understanding of:
 
-Classification problems in Machine Learning
+-Classification problems in Machine Learning
 
-Data preprocessing and cleaning
+-Data preprocessing and cleaning
 
-Exploratory Data Analysis techniques
+-Exploratory Data Analysis techniques
 
-Model evaluation using multiple metrics
+-Model evaluation using multiple metrics
 
-Feature importance and interpretation
+-Feature importance and interpretation
 
