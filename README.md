@@ -13,20 +13,13 @@ Language	Python
 Objective	Predict whether a person has heart disease
 🛠 Technologies Used
 
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
-
-Google Colab
-
+| Feature        | Details                                    |
+|----------------|--------------------------------------------|
+| Project Type   | Machine Learning / Classification           |
+| Model Used     | Logistic Regression, Decision Tree          |
+| Data Source    | UCI Heart Disease Dataset (Kaggle)          |
+| Language       | Python                                     |
+| Objective      | Predict whether a person has heart disease  |
 🚀 Project Workflow
 1. Data Collection
 
