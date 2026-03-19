@@ -23,63 +23,63 @@ Objective	Predict whether a person has heart disease
 🚀 Project Workflow
 1. Data Collection
 
-Loaded the dataset from Kaggle
+-Loaded the dataset from Kaggle
 
-Structured data using Pandas
+-Structured data using Pandas
 
 2. Data Preprocessing
 
-Handled missing values
+-Handled missing values
 
-Removed duplicates
+-Removed duplicates
 
-Cleaned and formatted dataset
+-Cleaned and formatted dataset
 
 3. Exploratory Data Analysis (EDA)
 
-Analyzed feature distributions
+-Analyzed feature distributions
 
-Created correlation heatmaps
+-Created correlation heatmaps
 
-Identified trends and patterns
+-Identified trends and patterns
 
 4. Feature Selection
 
-Selected key features such as:
+-Selected key features such as:
 
-Age
+-Age
 
-Chest Pain Type
+-Chest Pain Type
 
-Cholesterol
+-Cholesterol
 
-Resting Blood Pressure
+-Resting Blood Pressure
 
-Maximum Heart Rate
+-Maximum Heart Rate
 
-Target variable:
+-Target variable:
 
-Heart Disease (0 = No, 1 = Yes)
+-Heart Disease (0 = No, 1 = Yes)
 
 5. Model Training
 
-Implemented Logistic Regression and Decision Tree
+-Implemented Logistic Regression 
 
-Trained models on historical patient data
+-Trained models on historical patient data
 
 6. Model Evaluation
 
-Evaluated using Accuracy Score
+-Evaluated using Accuracy Score
 
-Generated Confusion Matrix
+-Generated Confusion Matrix
 
-Plotted ROC Curve and calculated AUC
+-Plotted ROC Curve and calculated AUC
 
 7. Prediction & Visualization
 
-Predicted heart disease risk
+-Predicted heart disease risk
 
-Visualized model performance using graphs
+-Visualized model performance using graphs
 
 📊 Learning Outcomes
 
