@@ -1,17 +1,60 @@
 ❤️ Heart Disease Prediction using Machine Learning
-📌 Project Overview
 
-This project aims to build a machine learning model that predicts whether a person is at risk of heart disease based on medical attributes. Using the UCI Heart Disease dataset, the model analyzes key health indicators and provides accurate predictions to assist in early diagnosis.
+This project demonstrates how Machine Learning can be used to predict whether a person is at risk of heart disease based on medical data. The model analyzes various health indicators and classifies patients into risk categories to support early diagnosis and decision-making.
 
-📊 Dataset
+The dataset used is the UCI Heart Disease dataset, which includes important features such as age, sex, chest pain type, cholesterol levels, resting blood pressure, and maximum heart rate.
 
-Source: UCI Heart Disease Dataset (Kaggle)
+📊 Project Overview
+Feature	Details
+Project Type	Machine Learning / Classification
+Model Used	Logistic Regression, Decision Tree
+Data Source	UCI Heart Disease Dataset (Kaggle)
+Language	Python
+Objective	Predict whether a person has heart disease
+🛠 Technologies Used
 
-Contains medical data such as:
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Scikit-learn
+
+Google Colab
+
+🚀 Project Workflow
+1. Data Collection
+
+Loaded the dataset from Kaggle
+
+Structured data using Pandas
+
+2. Data Preprocessing
+
+Handled missing values
+
+Removed duplicates
+
+Cleaned and formatted dataset
+
+3. Exploratory Data Analysis (EDA)
+
+Analyzed feature distributions
+
+Created correlation heatmaps
+
+Identified trends and patterns
+
+4. Feature Selection
+
+Selected key features such as:
 
 Age
-
-Sex
 
 Chest Pain Type
 
@@ -21,82 +64,41 @@ Resting Blood Pressure
 
 Maximum Heart Rate
 
-And more
+Target variable:
 
-⚙️ Workflow
-1. Data Preprocessing
+Heart Disease (0 = No, 1 = Yes)
 
-Handling missing values
+5. Model Training
 
-Removing duplicates
+Implemented Logistic Regression and Decision Tree
 
-Data cleaning and formatting
+Trained models on historical patient data
 
-2. Exploratory Data Analysis (EDA)
+6. Model Evaluation
 
-Visualizing feature distributions
+Evaluated using Accuracy Score
 
-Correlation heatmaps
+Generated Confusion Matrix
 
-Identifying patterns and trends
+Plotted ROC Curve and calculated AUC
 
-3. Model Building
+7. Prediction & Visualization
 
-Logistic Regression
+Predicted heart disease risk
 
-Decision Tree Classifier
+Visualized model performance using graphs
 
-4. Model Evaluation
+📊 Learning Outcomes
 
-Accuracy Score
+This project helped improve my understanding of:
 
-Confusion Matrix
+Classification problems in Machine Learning
 
-ROC Curve & AUC Score
+Data preprocessing and cleaning
 
-5. Feature Importance
+Exploratory Data Analysis techniques
 
-Identifying the most influential features affecting heart disease prediction
+Model evaluation using multiple metrics
 
-🧠 Technologies Used
-
-Python 🐍
-
-Pandas & NumPy
-
-Matplotlib & Seaborn
-
-Scikit-learn
-
-Google Colab
-
-📈 Results
-
-Achieved reliable prediction performance using classification models
-
-Key factors influencing heart disease include:
-
-Chest pain type
-
-Cholesterol levels
-
-Maximum heart rate
-
-Age
-
-🚀 How to Run
-
-Open the notebook in Google Colab
-
-Upload the dataset
-
-Run all cells step-by-step
-
-🎯 Future Improvements
-
-Hyperparameter tuning
-
-Use advanced models (Random Forest, XGBoost)
-
-Deploy as a web application
+Feature importance and interpretation
 
